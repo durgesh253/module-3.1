@@ -1,13 +1,12 @@
-#include<stdio.h>
-void main()
-{
-    int year,days;
+#include <stdio.h>
+void main(){
+  
+    float year,day;
+    printf("Enter Year: ");
+    scanf("%f",&year);
+    printf("\nConvert To Year to Days: %f",year*365);
 
-    printf("enter the year:");
-    scanf("%d",year);
-     
-    days=year*365;
-
-    printf("days=%d",days);
-
+    printf("\nEnter Days: ");
+    scanf("%f",&day);
+    printf("\nConvert Day to Year: %f",day/365);
 }
